@@ -6,13 +6,13 @@ import { ProjectsSection } from "@/components/sections/projects"
 import { ExperienceSection } from "@/components/sections/experience"
 import { ContactSection } from "@/components/sections/contact"
 import { Footer } from "@/components/footer"
-import { DevBackground } from "@/components/dev-background"
+//import { DevBackground } from "@/components/dev-background"
 
 export default function Home() {
   return (
     <div className="min-h-screen relative">
-      <DevBackground />
-      <Header />
+  {/* <DevBackground /> */}
+  <Header />
       <main>
         <HeroSection />
         <AboutSection />
